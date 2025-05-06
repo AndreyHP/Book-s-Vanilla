@@ -48,6 +48,15 @@ body, ul {
     background-color: #333;
   }
 
+  #logo{
+    background-color: burlywood;
+  }
+
+  #logo img{
+    max-width: 300px;
+    max-height: 80px;
+  }
+
   #content{
     display: flex;
   }
@@ -66,6 +75,9 @@ body, ul {
     max-width: 200px;
   }
 
+  #img-spacer{
+    padding-top: 5%;
+  }
 
   /* Active link (if needed) */
   .menu-bar li a.active {
